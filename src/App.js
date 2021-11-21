@@ -3,20 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{backgroundColor:'red'}} className="App">
       <header className="App-header">
+        <h1>Dino Tienda</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Todo lo que necesitas para tu Dino vida</p>
       </header>
     </div>
   );
