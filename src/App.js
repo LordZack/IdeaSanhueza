@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Landing from "./components/Landing";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div style={{backgroundColor:'red'}} className="App">
-      <header className="App-header">
-        <h1>Dino Tienda</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Todo lo que necesitas para tu Dino vida</p>
-      </header>
+    <div className="container-fluid" style={{top:'0', bottom:'0', left:'0', right:'0', position: 'absolute'}}>
+      <NavBar />
+      <Landing />
+      <Footer/>
     </div>
   );
 }
