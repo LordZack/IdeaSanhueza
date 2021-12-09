@@ -7,7 +7,7 @@ const ItemListContainer = ({greeting}) => {
 const arrayDinoProductos = [
     {
         id:1,
-        name:"dino Producto 01",
+        name:"Dino Producto 01",
         stock: 2,
         price: 2000,
         img: "https://as01.epimg.net/meristation/imagenes/2020/12/31/noticias/1609429630_243049_1609429733_noticia_normal.jpg",
@@ -15,19 +15,19 @@ const arrayDinoProductos = [
     },
     {
         id:2,
-        name:"dino Producto 02",
+        name:"Dino Producto 02",
         stock: 5,
         price: 1000,
-        img: "https://as01.epimg.net/meristation/imagenes/2020/12/31/noticias/1609429630_243049_1609429733_noticia_normal.jpg",
+        img: "https://images.greelane.com/proxy?url=https%3A%2F%2Fwww.thoughtco.com%2Fthmb%2FhGxaNJo4e0v1OoIJhkZYraCTECc%3D%2F3888x2592%2Ffilters%3Afill%28auto%2C1%29%2Fyoung-boy-wearing-safari-outfit-playing-with-toy-dinosaurs--182873046-5b734f39c9e77c0025031a80.jpg&width=750",
         category: "Dinosaurios"
     },
     {
         id:3,
-        name:"dino Producto 03",
+        name:"Dino Producto 03",
         stock: 0,
         price: 6000,
-        img: "https://as01.epimg.net/meristation/imagenes/2020/12/31/noticias/1609429630_243049_1609429733_noticia_normal.jpg",
-        category: "Dinosaurios"
+        img: "https://www.enter.co/wp-content/uploads/2021/02/la_era_de_hielo_4-1104x621.jpg",
+        category: "Era del Hielo"
     },
 ];
 
